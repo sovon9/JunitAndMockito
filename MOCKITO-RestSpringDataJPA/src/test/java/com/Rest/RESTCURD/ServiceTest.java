@@ -28,7 +28,6 @@ class ServiceTest {
 	public void setUp()
 	{
 		MockitoAnnotations.openMocks(this);
-		empService = new EmployeeService();
 	}
 	
 	@Test
