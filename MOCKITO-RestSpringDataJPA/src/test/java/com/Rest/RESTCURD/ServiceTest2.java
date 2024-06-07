@@ -25,13 +25,12 @@ class ServiceTest2 {
 	private EmployeeRepository repository;
 	
 	@InjectMocks
-	private EmployeeService empService = new EmployeeService();
+	private EmployeeService empService;
 	
 	@BeforeEach
 	public void setUp()
 	{
 		MockitoAnnotations.openMocks(this);
-		//empService = new EmployeeService();
 	}
 	
 	@Test
